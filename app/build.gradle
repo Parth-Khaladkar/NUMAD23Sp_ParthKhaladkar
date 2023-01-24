@@ -3,6 +3,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        myReleaseConfig {
+            storeFile file('/Users/parthkhaladkar/Documents/keystore/classkeystore')
+            storePassword 'Voldemort'
+            keyAlias 'my first key'
+            keyPassword 'Voldemort'
+        }
+    }
     namespace 'edu.northeastern.numad23sp_parthkhaladkar'
     compileSdk 32
 
@@ -14,6 +22,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.myReleaseConfig
     }
 
     buildTypes {

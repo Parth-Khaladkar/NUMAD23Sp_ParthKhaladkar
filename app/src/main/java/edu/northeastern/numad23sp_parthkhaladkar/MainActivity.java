@@ -15,7 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void displaydetails(View view){
+    public void onClick(View view) {
+        if(view.getId()==R.id.about){
+            displaydetails();
+        }
+    }
+
+    public void displaydetails(){
 
         String TAG = "In If  ";
 
