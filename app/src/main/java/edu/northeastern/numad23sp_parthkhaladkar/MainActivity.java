@@ -2,6 +2,7 @@ package edu.northeastern.numad23sp_parthkhaladkar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -19,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         if(view.getId()==R.id.about){
             displaydetails();
         }
+        else if(view.getId()==R.id.second){
+            Intent i = new Intent(this,SecondActivity.class);
+            startActivity(i);
+        }
+
     }
 
     public void displaydetails(){
