@@ -20,7 +20,7 @@ public class SecondActivity extends AppCompatActivity {
         //screendisp.setText("In second Activity");
         screendisp = findViewById(R.id.textViewPressed);
 
-        screendisp.setText("");
+        screendisp.setText("Pressed:-");
 
     }
 
