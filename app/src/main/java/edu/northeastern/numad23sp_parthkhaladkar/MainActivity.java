@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         if(view.getId()==R.id.about){
-            displaydetails();
+            Intent i1 = new Intent(this,AboutMeActivity.class);
+            startActivity(i1);
         }
         else if(view.getId()==R.id.second){
             Intent i = new Intent(this,SecondActivity.class);
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void displaydetails(){
+    /*public void displaydetails(){
 
         String TAG = "In If  ";
 
@@ -41,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
             name.setText("");
             email.setText("");
         }
-    }
+    }*/
+
+    //Intent intent = new Intent(this, AboutMeActivity.class);
+    //        startActivity(intent);
 
 }
