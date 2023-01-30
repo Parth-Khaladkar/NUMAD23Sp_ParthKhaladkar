@@ -25,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this,SecondActivity.class);
             startActivity(i);
         }
+        else if(view.getId()==R.id.linkCollector)
+        {
+            Intent i2 = new Intent(this,LinkCollectorActivity.class);
+            startActivity(i2);
+        }
 
     }
 
