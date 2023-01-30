@@ -4,9 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else if(view.getId()==R.id.linkCollector)
         {
-            Intent i2 = new Intent(this,LinkCollectorActivity.class);
+            Intent i2 = new Intent(this, LinkCollector.class);
             startActivity(i2);
         }
 

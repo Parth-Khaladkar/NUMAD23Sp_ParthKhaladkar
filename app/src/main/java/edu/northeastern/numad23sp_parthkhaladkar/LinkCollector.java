@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class LinkCollectorActivity extends AppCompatActivity {
+public class LinkCollector extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

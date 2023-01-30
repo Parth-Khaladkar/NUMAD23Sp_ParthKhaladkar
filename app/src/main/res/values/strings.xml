@@ -11,6 +11,21 @@
     <string name="convert_f">F</string>
     <string name="convert_pressed">Pressed</string>
     <string name="convert_collector">Link Collector</string>
+    <string name="button_info">floatingButton</string>
+
+
+    <string name="desc">floatingButton</string>
+    <string name="link_collector">LINK COLLECTOR</string>
+    <string name="link_details">Enter Link Details</string>
+    <string name="link_name">Name:</string>
+    <string name="link_url">Url:</string>
+    <string name="Add">Add</string>
+    <string name="Cancel">Cancel</string>
+    <string name="link_add_success">Link addition successful</string>
+    <string name="link_invalid">Invalid url</string>
+    <string name="NameValuePair">Name: %1$s</string>
+    <string name="UrlValuePair">Url: %1$s</string>
+    <string name="Http">http://</string>
 
 
 </resources>
