@@ -22,7 +22,7 @@
     <string name="Add">Add</string>
     <string name="Cancel">Cancel</string>
     <string name="link_add_success">Link addition successful</string>
-    <string name="link_invalid">Invalid url</string>
+    <string name="invalid_link">Invalid url</string>
     <string name="NameValuePair">Name: %1$s</string>
     <string name="UrlValuePair">Url: %1$s</string>
     <string name="Http">http://</string>
