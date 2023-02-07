@@ -29,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i2);
 
         }
+        else if(view.getId()==R.id.primeButton)
+        {
+            Intent i3 = new Intent(this,PrimeActivity.class);
+            startActivity(i3);
+        }
+
+
 
     }
 

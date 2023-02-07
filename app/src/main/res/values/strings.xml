@@ -28,4 +28,10 @@
     <string name="Http">http://</string>
 
 
+    <string name="prime_button">Find Prime</string>
+    <string name="find_primes">Find Primes</string>
+    <string name="terminate_search">Terminate Search</string>
+    <string name="pacifier_switch">Pacifier Switch</string>
+    <string name="back_prompt">Do you want to Quit?</string>
+
 </resources>
