@@ -26,18 +26,27 @@ public class MainActivity extends AppCompatActivity {
         else if(view.getId()==R.id.linkCollector)
         {
             Intent i2 = new Intent(this, LinkCollectorActivity.class);
+
             startActivity(i2);
 
         }
-        else if(view.getId()==R.id.primeButton)
+        // to do : debug this
+        /*else if(view.getId()==R.id.primeButton)
         {
             Intent i3 = new Intent(this,PrimeActivity.class);
+            System.out.println("IN HERE");
             startActivity(i3);
-        }
+        }*/
+
 
 
 
     }
+
+    public void prime_act(View view) {
+        Intent temp = new Intent(this, PrimeActivity.class);
+        startActivity(temp);
+   }
 
     /*public void displaydetails(){
 
