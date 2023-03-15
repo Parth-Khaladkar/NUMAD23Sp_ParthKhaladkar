@@ -29,6 +29,9 @@ public class SecondActivity extends AppCompatActivity {
         StringBuilder sb = new StringBuilder();
         sb.append("Pressed: ");
         sb.append(((Button) view).getText().toString());
+        /* same as below   gets text on the button
+        Button b = (Button)view;
+        String text = b.getText().toString();*/
         screendisp.setText(sb.toString());
     }
 }

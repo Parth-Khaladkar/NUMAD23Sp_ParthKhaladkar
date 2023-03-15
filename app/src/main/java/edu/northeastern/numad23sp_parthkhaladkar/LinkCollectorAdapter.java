@@ -26,18 +26,25 @@ public class LinkCollectorAdapter extends RecyclerView.Adapter<LinkCollectorView
     @NonNull
     @Override
     public LinkCollectorViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+
+        // inflating the layout and giving look to each of our rows
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_weblink_unit, parent, false);
         return new LinkCollectorViewHolder(view, linkClickListener);
     }
 
     @Override
     public void onBindViewHolder(@NonNull LinkCollectorViewHolder linkCollectorViewHolder, int position) {
+        // assigning values to each of our rows as they come back to the screen
+        // based on the position of the recycler view
+
+
         WebLink currentLinkItem = link_list.get(position);
         linkCollectorViewHolder.linkName.setText(currentLinkItem.getName());
         linkCollectorViewHolder.linkUrl.setText(currentLinkItem.getLinkUrl());
     }
 
     @Override
+    //how many items do you have in total
     public int getItemCount()
     {
         return link_list.size();

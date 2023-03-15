@@ -43,10 +43,19 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void prime_act(View view) {
+    public void prime_act(View view)
+    {
         Intent temp = new Intent(this, PrimeActivity.class);
         startActivity(temp);
-   }
+    }
+
+    public void location_act(View view)
+    {
+        Intent intent = new Intent(this,LocationActivity.class);
+        startActivity(intent);
+    }
+
+
 
     /*public void displaydetails(){
 
